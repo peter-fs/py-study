@@ -6,10 +6,10 @@ import shutil, os, re
 
 # Create a regex that matches files with the YYYY-MM-DD date format.
 date_pattern = re.compile(r"""^(.*?) # all text before the date
-                          (\d{4})- # four digits for the year
-                          (\d{2})- # two digits for the month
-                          (\d{2}) # two digits for the day
-                          (.*?)$ # all text after the date
+                          (\d{4})-  # four digits for the year
+                          (\d{2})-  # two digits for the month
+                          (\d{2})   # two digits for the day
+                          (.*?)$    # all text after the date
                           """, re.VERBOSE)
 
 # Loop over the files in the working directory.
