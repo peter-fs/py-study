@@ -5,7 +5,7 @@
 import shutil, os, re
 
 # Create a regex that matches files with the DD-MM-YYYY date format.
-date_pattern = re.compile(r"""^(.*?) # all text before the date
+date_pattern = re.compile(r"""^(.*?)    # all text before the date
                           (\d{2})-      # two digits for the day
                           (\d{2})-      # two digits for the month
                           (\d{4})       # four digits for the year
