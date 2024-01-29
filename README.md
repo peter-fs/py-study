@@ -1,2 +1,2 @@
 # py-study
-Python Study Group and other experiments
+Python Study Group projects
